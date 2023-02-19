@@ -67,7 +67,7 @@
 #hero button {
   margin: 8px 0;
   /* background-color: wheat; */
-  box-shadow: inset 0px 0px 20px -11px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 20px -11px rgba(0, 0, 0, 1);
   border: 0.5px solid black;
   width: 15vh;
   height: 5vh;
@@ -78,7 +78,8 @@
 #hero button:hover {
   cursor: pointer;
   /* background-color: aquamarine; */
-  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.5),inset 0px 0px 25px -5px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.5),
+    inset 0px 0px 25px -5px rgba(0, 0, 0, 1);
 }
 #feature {
   margin: 12px 0;
@@ -95,12 +96,8 @@
 .feature_content {
   margin-left: 12px;
   flex-direction: column;
-  box-shadow: inset 0px 0px 29px -11px rgba(0,0,0,1);
-  border: 2px solid rgba(230,230,230);
-  /* box-shadow: 5px 10px 8px 0 rgba(119, 119, 119, 0.5),
-    -5px 10px 8px 0 rgba(255, 255, 255, 0.85),
-    inset 5px 10px 8px 0 rgba(119, 119, 119, 0.5);
-    inset -5px 10px 8px 0 rgba(255, 255, 255, 0.85);*/
+  box-shadow: inset 0px 0px 29px -11px rgba(0, 0, 0, 1);
+  border: 2px solid rgba(230, 230, 230);
   border-radius: 12px;
   width: 25vh;
   height: 20vh;
@@ -122,8 +119,42 @@
 .feature_content:hover {
   cursor: pointer;
   box-shadow: inset 0px 0px 53px -5px rgba(0, 0, 0, 1);
-  /* box-shadow: 5px 5px 5px  0 rgba(119, 119, 119, 0.5),
-  -5px 5px 5px 0 rgba(255, 255, 255, 0.85),
-  inset 5px 5px 5px  0 rgba(119, 119, 119, 0.5),
-  inset -5px 5px 5px 0 rgba(255, 255, 255, 0.85); */
+}
+
+.product1 {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.products {
+  margin: 24px;
+}
+.pro-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pro {
+  background-color: rgb(175, 235, 233);
+  width: 40vh;
+  margin: 24px;
+  height: fit-content;
+  border-radius: 12px;
+}
+
+.pro img {
+  margin: 10px;
+  border-radius: 12px;
+  width: 37vh;
+}
+
+.des {
+  padding: 12px;
+  text-align: left;
+}
+
+.star {
+  color: lightslategray;
 }
