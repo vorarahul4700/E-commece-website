@@ -202,3 +202,7 @@ body {
 .products_main .pro-container .pro .left a:hover {
   transform: scale(110%);
 }
+
+#banner {
+  background: url();
+}
