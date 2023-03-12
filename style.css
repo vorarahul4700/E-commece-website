@@ -10,6 +10,7 @@ body {
 /* Header section */
 #header {
   position: sticky;
+  z-index: 2;
   top: 0;
   display: flex;
   align-items: center;
@@ -19,7 +20,7 @@ body {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 #header a img {
-  height: 60px;
+  height: 74px;
 }
 
 #header #navbar {
@@ -81,9 +82,12 @@ body {
 
 #hero button:hover {
   cursor: pointer;
-  box-shadow: rgb(86, 86, 86) 6px 6px 6px 0px inset,
-    rgba(255, 255, 255) -6px -6px 6px 1px inset, rgb(86, 86, 86) 6px 6px 6px 0px,
-    rgba(255, 255, 255) -6px -6px 6px 1px;
+  transform: scale(110%);
+  font-weight: bolder;
+  box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset,
+    rgb(204, 219, 232) 6px 6px 6px 0px,
+    rgba(255, 255, 255, 0.5) -6px -6px 6px 1px;
 }
 
 /* Feature section */
@@ -119,11 +123,11 @@ body {
 }
 
 #feature .fe-box .feature_content .content {
-  color: red;
   font-size: larger;
 }
 
 #feature .fe-box .feature_content:hover {
+  transform: scale(105%);
   cursor: pointer;
   box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset,
@@ -138,56 +142,58 @@ body {
   text-align: center;
 }
 
-.products {
+.products_main .products {
   margin: 24px;
 }
-.pro-container {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.products_main .pro-container {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
 }
-.pro {
-  /* background-color: rgb(175, 235, 233); */
+.products_main .pro-container .pro {
   box-shadow: rgb(165 165 165) 0px 0px 5px 5px;
   margin: 24px;
   height: fit-content;
   border-radius: 12px;
 }
 
-.pro img {
-  margin: 12px 12px 0 12px;
+.products_main .pro-container .pro img {
+  margin: 16px 16px 0 16px;
   box-shadow: rgb(165 165 165) 0px 0px 5px 3px;
   border-radius: 12px;
-  width: 25vh;
+  width: 30vh;
 }
 
-.des {
-  padding: 12px;
+.products_main .pro-container .pro .des {
+  padding: 20px;
   text-align: left;
 }
+.products_main .pro-container .pro .des span {
+  color: lightslategray;
+  font-weight: bolder;
+}
 
-.star {
+.products_main .pro-container .pro .star {
   margin-top: 5px;
   font-size: 12px;
   cursor: pointer;
   color: lightslategray;
 }
 
-.left {
+.products_main .pro-container .pro .left {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.left a {
+.products_main .pro-container .pro .left a {
   color: lightslategray;
   background-color: rgb(219, 219, 219);
   border-radius: 50px;
   padding: 12px;
 }
 
-.left a p{
+.products_main .pro-container .pro .left a i {
   font-size: 16px;
 }
