@@ -7,6 +7,7 @@
 body {
   background-color: #ffffff;
 }
+
 /* Header section */
 #header {
   position: sticky;
@@ -73,8 +74,9 @@ body {
   box-shadow: rgb(165 165 165) 5px 5px 5px 0px inset,
     rgb(255 255 255) -5px -5px 5px 1px inset, rgb(165 165 165) 5px 5px 5px 0px;
   border: none;
-  width: 100px;
-  height: 25px;
+  padding: 8px 12px;
+  width: fit-content;
+  height:fit-content;
   border-radius: 12px;
   font-weight: 900;
 }
@@ -204,5 +206,44 @@ body {
 }
 
 #banner {
-  background: url();
+  background: url(assets/banner/b2.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner h4{
+  font-size: x-large;
+  color:lightblue;
+}
+
+#banner h2{
+  color:rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+#banner button {
+  padding:8px 12px;
+  font-size: 12px;
+  margin: 8px 0;
+  box-shadow: rgb(165 165 165) 5px 5px 5px 0px inset;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 16px;
+  font-weight: 900;
+  font-weight: bold;
+}
+
+#banner button:hover {
+  cursor: pointer;
+  transform: scale(110%);
+  font-weight:bolder;
+  box-shadow: rgb(165 165 165) 6px 6px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
 }
