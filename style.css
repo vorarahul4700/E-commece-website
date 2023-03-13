@@ -76,7 +76,7 @@ body {
   border: none;
   padding: 8px 12px;
   width: fit-content;
-  height:fit-content;
+  height: fit-content;
   border-radius: 12px;
   font-weight: 900;
 }
@@ -138,70 +138,70 @@ body {
 
 /* Product section */
 
-.products_main {
+.products_main, .New_arrival {
   margin-top: 24px;
   text-align: center;
 }
 
-.products_main .products {
+.products {
   margin: 24px;
 }
-.products_main .pro-container {
+.pro-container {
   display: grid;
   width: fit-content;
   grid-template-columns: auto auto auto auto;
   margin: auto;
 }
-.products_main .pro-container .pro {
+.pro-container .pro {
   box-shadow: rgb(165 165 165) 0px 0px 5px 5px;
   margin: 24px;
   height: fit-content;
   border-radius: 12px;
 }
 
-.products_main .pro-container .pro img {
+.pro-container .pro img {
   margin: 16px 16px 0 16px;
   box-shadow: rgb(165 165 165) 0px 0px 5px 3px;
   border-radius: 12px;
   width: 30vh;
 }
 
-.products_main .pro-container .pro .des {
+.pro-container .pro .des {
   padding: 20px;
   text-align: left;
 }
-.products_main .pro-container .pro .des span {
+.pro-container .pro .des span {
   color: lightslategray;
   font-weight: bolder;
 }
 
-.products_main .pro-container .pro .star {
+.pro-container .pro .star {
   margin-top: 5px;
   font-size: 12px;
   cursor: pointer;
   color: lightslategray;
 }
 
-.products_main .pro-container .pro .left {
+.pro-container .pro .left {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.products_main .pro-container .pro .left a {
+.pro-container .pro .left a {
   color: lightslategray;
   background-color: rgb(219, 219, 219);
   border-radius: 50px;
   padding: 12px;
 }
 
-.products_main .pro-container .pro .left a i {
+.pro-container .pro .left a i {
   font-size: 16px;
 }
-.products_main .pro-container .pro #star:hover {
+.pro-container .pro #star:hover {
   transform: scale(110%);
 }
-.products_main .pro-container .pro .left a:hover {
+.pro-container .pro .left a:hover {
   transform: scale(110%);
 }
 
@@ -217,18 +217,18 @@ body {
   text-align: center;
 }
 
-#banner h4{
+#banner h4 {
   font-size: x-large;
-  color:lightblue;
+  color: lightblue;
 }
 
-#banner h2{
-  color:rgb(255, 255, 255);
+#banner h2 {
+  color: rgb(255, 255, 255);
   font-size: 40px;
 }
 
 #banner button {
-  padding:8px 12px;
+  padding: 8px 12px;
   font-size: 12px;
   margin: 8px 0;
   box-shadow: rgb(165 165 165) 5px 5px 5px 0px inset;
@@ -243,7 +243,7 @@ body {
 #banner button:hover {
   cursor: pointer;
   transform: scale(110%);
-  font-weight:bolder;
+  font-weight: bolder;
   box-shadow: rgb(165 165 165) 6px 6px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
 }
