@@ -5,7 +5,53 @@
   font-family: "Times New Roman", Times, serif;
 }
 body {
+  width: 100%;
   background-color: #ffffff;
+}
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+section-p1 {
+  padding: 40px 80px;
+}
+section-m1 {
+  margin: 40px 0;
+}
+.button {
+  margin: 8px 0;
+  box-shadow: rgb(165 165 165) 5px 5px 5px 0px inset,
+    rgb(255 255 255) -5px -5px 5px 1px inset;
+  border: none;
+  padding: 8px 12px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 12px;
+  font-weight: 900;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(110%);
+  font-weight: bolder;
 }
 
 /* Header section */
@@ -69,28 +115,6 @@ body {
   font-size: xx-large;
 }
 
-#hero button {
-  margin: 8px 0;
-  box-shadow: rgb(165 165 165) 5px 5px 5px 0px inset,
-    rgb(255 255 255) -5px -5px 5px 1px inset, rgb(165 165 165) 5px 5px 5px 0px;
-  border: none;
-  padding: 8px 12px;
-  width: fit-content;
-  height: fit-content;
-  border-radius: 12px;
-  font-weight: 900;
-}
-
-#hero button:hover {
-  cursor: pointer;
-  transform: scale(110%);
-  font-weight: bolder;
-  box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset,
-    rgb(204, 219, 232) 6px 6px 6px 0px,
-    rgba(255, 255, 255, 0.5) -6px -6px 6px 1px;
-}
-
 /* Feature section */
 #feature {
   margin: 12px 0;
@@ -138,7 +162,8 @@ body {
 
 /* Product section */
 
-.products_main, .New_arrival {
+.products_main,
+.New_arrival {
   margin-top: 24px;
   text-align: center;
 }
@@ -153,7 +178,7 @@ body {
   margin: auto;
 }
 .pro-container .pro {
-  box-shadow: rgb(165 165 165) 0px 0px 5px 5px;
+  box-shadow: rgb(165 165 165) 0px 0px 5px 1px;
   margin: 24px;
   height: fit-content;
   border-radius: 12px;
@@ -163,7 +188,7 @@ body {
   margin: 16px 16px 0 16px;
   box-shadow: rgb(165 165 165) 0px 0px 5px 3px;
   border-radius: 12px;
-  width: 30vh;
+  width: 35vh;
 }
 
 .pro-container .pro .des {
@@ -197,6 +222,10 @@ body {
 
 .pro-container .pro .left a i {
   font-size: 16px;
+}
+.pro-container .pro:hover {
+  transform: scale(105%);
+  box-shadow: rgb(165 165 165) 0px 0px 7px 3px;
 }
 .pro-container .pro #star:hover {
   transform: scale(110%);
@@ -246,4 +275,23 @@ body {
   font-weight: bolder;
   box-shadow: rgb(165 165 165) 6px 6px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
+}
+#sm-banner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box {
+  background-image: url(assets/banner/b17.jpg);
+  min-width: 500px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  padding: 30px;
+  border-radius: 16px;
 }
