@@ -144,8 +144,13 @@ section-m1 {
 
 #feature .fe-box .feature_content img {
   width: calc(50%);
-  justify-content: center;
-}
+  display: flex;
+  align-items: self-start;
+  margin-top: auto;
+ }
+ #feature .fe-box .feature_content p{
+  margin-top: auto;
+ }
 
 #feature .fe-box .feature_content .content {
   font-size: larger;
