@@ -60,6 +60,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+flex-direction: row;
   padding: 10px 60px;
   background-color: aliceblue;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -116,7 +117,7 @@ p {
 /* Feature section */
 
 #feature {
-  margin: 16px;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -152,7 +153,7 @@ p {
 
 /* Product section */
 .products_main {
-  margin: 16px;
+  
 }
 
 .products_main,
@@ -305,7 +306,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 16px;
+  
   flex-wrap: wrap;
 }
 
@@ -352,7 +353,7 @@ p {
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
-  margin: 16px;
+  
 }
 
 #newslatter h4 {
@@ -401,7 +402,7 @@ p {
 /* Footer Section */
 
 footer {
-  margin: 16px;
+  
   display: grid;
   grid-template-columns: auto 1fr 1fr 1fr;
 }
