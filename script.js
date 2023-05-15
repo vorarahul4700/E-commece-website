@@ -1,0 +1,20 @@
+const navslide = () => {
+  var bur = document.getElementById("burger");
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".navbar");
+  const navlinks = document.querySelectorAll("#navbar li");
+
+  bur.className = "fa-solid fa-bars";
+
+  burger.addEventListener("click", () => {
+    nav.classList.toggle("navbar-active");
+    
+    if (bur.className === "fa-solid fa-xmark") {
+      bur.className = "fa-solid fa-bars";
+    } else {
+      bur.className = "fa-solid fa-xmark";
+    }
+  });
+};
+
+navslide();
