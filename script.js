@@ -11,8 +11,10 @@ const navslide = () => {
     nav.style.display="block";
     if (bur.className === "fa-solid fa-xmark") {
       bur.className = "fa-solid fa-bars";
+      nav.style.visibility="hidden";
     } else {
       bur.className = "fa-solid fa-xmark";
+      nav.style.visibility="visible";
     }
   });
 };
