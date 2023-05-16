@@ -442,6 +442,7 @@ footer .col a:hover {
 
 /* header */
 #header{
+  position: sticky;
   height: 8vh;
 }
 #header a img{
