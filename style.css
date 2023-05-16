@@ -519,10 +519,13 @@ width: auto;
     margin-top: 18px;
   }
 
-
+#feature{
+  justify-content: space-evenly;
+}
   #feature .feature_content {
-    width: 15vh;
-    height: 15vh;
+    width: 12vh;
+    height: 12vh;
+    margin: 12px;
 }
 
 .pro-container .pro{
