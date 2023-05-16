@@ -95,11 +95,9 @@ p {
   color: red;
 }
 
-
 #burger {
   display: none;
 }
-
 
 /* Hero section */
 #hero {
@@ -437,6 +435,11 @@ footer .col a:hover {
 /* Media querys */
 
 @media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  /* Navigation responsive */
   .navbar {
     position: absolute;
     right: 0;
@@ -452,10 +455,6 @@ footer .col a:hover {
     transform: translatex(100%);
     /* transition: transform 0.3s ease-in; */
   }
-  body {
-    overflow-x: hidden;
-    width: 100%;
-  }
 
   #burger {
     display: block;
@@ -470,8 +469,71 @@ footer .col a:hover {
     transform: translatex(0%);
   }
 
+  /* Hero section  */
 
-  #banner h2{
+  #hero {
+    height: fit-content;
+    padding: 16px;
+  }
+  #hero h4,
+  h2,
+  h1,
+  p {
+    font-size: smaller;
+  }
+#hero p{
+  color:#041e42;
+}
+  #hero .button{
+width: auto;
+  }
+
+  #banner h2 {
     font-size: 24px;
   }
+
+  .section-p1 {
+    padding: 40px;
+    /* margin:12px; */
+  }
+
+  #banner3 {
+    display: block;
+    margin: 12px;
+  }
+
+  #sm-banner .banner-box {
+    height: auto;
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+  #sm-banner {
+    padding: 0px;
+  }
+
+  #newslatter .form input {
+    width: auto;
+  }
+
+  footer .col {
+    margin-top: 18px;
+  }
+
+
+  #feature .feature_content {
+    width: 15vh;
+    height: 15vh;
+}
+
+.pro-container .pro{
+  width:20vh;
+  height: fit-content;
+margin: 0px;
+margin-top: 12px;
+}
+
+.pro-container .pro img{
+  width: 17vh;
+  margin: 10px;
+}
 }
