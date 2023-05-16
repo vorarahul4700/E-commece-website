@@ -436,7 +436,7 @@ footer .col a:hover {
 
 /* Media querys */
 
-@media (max-width: 799px) {
+@media (max-width: 850px) {
   .navbar {
     position: absolute;
     right: 0;
