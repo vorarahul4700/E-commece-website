@@ -96,7 +96,7 @@ p {
 }
 
 
-.burger {
+#burger {
   display: none;
 }
 
@@ -455,7 +455,7 @@ footer .col a:hover {
     overflow-x: hidden;
   }
 
-  .burger {
+  #burger {
     display: block;
     cursor: pointer;
   }
