@@ -8,7 +8,7 @@ const navslide = () => {
 
   burger.addEventListener("click", () => {
     nav.classList.toggle("navbar-active");
-    
+    nav.style.display="block";
     if (bur.className === "fa-solid fa-xmark") {
       bur.className = "fa-solid fa-bars";
     } else {
