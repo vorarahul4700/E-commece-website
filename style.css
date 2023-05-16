@@ -439,6 +439,14 @@ footer .col a:hover {
     overflow-x: hidden;
     width: 100%;
   }
+
+/* header */
+#header{
+  height: 8vh;
+}
+#header a img{
+  height: 6vh;
+}
   /* Navigation responsive */
   .navbar {
     position: absolute;
@@ -505,7 +513,7 @@ width: auto;
   #sm-banner .banner-box {
     height: auto;
     border-radius: 0px;
-    margin-top: 0px;
+    margin-top: 16px;
   }
   #sm-banner {
     padding: 0px;
@@ -525,18 +533,31 @@ width: auto;
   #feature .feature_content {
     width: 12vh;
     height: 12vh;
-    margin: 12px;
+    margin: 16px 0 0 0 ;
 }
 
 .pro-container .pro{
   width:20vh;
   height: fit-content;
 margin: 0px;
-margin-top: 12px;
+margin-top: 16px;
 }
 
 .pro-container .pro img{
   width: 17vh;
   margin: 10px;
+}
+.pro-container .pro .des{
+  padding: 8px;
+}
+
+/* banner */
+#banner {
+  margin-top: 16px;
+}
+
+/* banner 3 */
+#banner3 .banner-box{
+  margin-bottom: 4px;
 }
 }
