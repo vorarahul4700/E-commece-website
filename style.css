@@ -111,6 +111,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 #hero h1 {
@@ -124,10 +125,11 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin:16px;
 }
 
 #feature .feature_content {
-  margin: 16px 0 0 16px;
+  margin: 8px 8px 8px 8px;
   flex-direction: column;
   box-shadow: rgb(165 165 165) 5px 5px 5px 0px inset,
     rgb(255 255 255) -5px -5px 5px 1px inset, rgb(165 165 165) 5px 5px 5px 0px,
@@ -155,13 +157,12 @@ p {
 }
 
 /* Product section */
-.products_main {
-}
+
 
 .products_main,
 .New_arrival,
 .product {
-  margin-top: 24px;
+  margin-top: 16px;
   text-align: center;
 }
 
@@ -174,7 +175,7 @@ p {
 }
 .pro-container .pro {
   box-shadow: rgb(165 165 165) 0px 0px 5px 1px;
-  margin: 24px;
+  margin: 16px;
   height: fit-content;
   border-radius: 12px;
 }
@@ -239,6 +240,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 16px 0;
 }
 
 #banner h4 {
@@ -277,6 +279,9 @@ p {
   flex-wrap: wrap;
   font-weight: bolder;
 }
+#sm-banner.section-p1{
+  padding: 0px;
+}
 #sm-banner .banner-box {
   background-image: url(assets/banner/b17.jpg);
   width: 100vh;
@@ -290,7 +295,7 @@ p {
   text-align: center;
   padding: 30px;
   border-radius: 12px;
-  margin-top: 12px;
+  margin:16px;
 }
 
 #sm-banner .banner-box2 {
@@ -308,8 +313,8 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
   flex-wrap: wrap;
+  margin: 16px 0;
 }
 
 #banner3 .banner-box {
@@ -355,6 +360,7 @@ p {
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
+  margin: 16px 0;
 }
 
 #newslatter h4 {
@@ -407,12 +413,15 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+footer.section-p1{
+  padding: 0px;
+}
 
 footer .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 12px;
+  margin:0 16px 0 16px;
 }
 
 footer .logo {
